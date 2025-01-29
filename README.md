@@ -13,4 +13,4 @@ Skjal fengið af síðu island.is í
 * [Sýnidæmi í PHP](example.php)
 * [Sýnidæmi í Java](Example.java)
 * [Dæmi um SAML tóka úr leiðbeiningum](saml.xml)
-* [Dæmi um SAML tóka frá 2024](saml.xml) (undirritun stemmir ekki við gögn tókans því nafni, kennitölu og IP tölu hefur verið breytt)
+* [Dæmi um SAML tóka frá 2024](saml-2024.xml) (undirritun stemmir ekki við gögn tókans því nafni, kennitölu og IP tölu hefur verið breytt)
