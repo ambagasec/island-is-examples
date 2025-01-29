@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:SAML:2.0:protocol" ID="_ba753621-d10c-4023-8753-2e60c64b08b9" Version="2.0" IssueInstant="2024-09-02T11:57:16.186368Z" Destination="https://sjodir.rannis.is/menu/">
+  <Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">Innskraning</Issuer>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <DigestValue>MZL4FBfJ68102Dg6CYK0vwQsyUTeRDlhWrC7/n/rEgI=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>EDroeXP4jetw/z746ynP8Spyohqtxl8ifwxypBOf1NUG+fv38sQSINkaOyb0xyjoP6U3wQNgODPu1/3Zeneeb96TrwxIruCqxrCkNEl2aZh0Ug/BqgFeFUCqsMZHrjAxCX9RSVXvPnqVQhBL5LslqdZ/nJVxwHTJUZkw+cFZxbO5EYACa1M+v69/OQ6w2MKPXdoVxq81wiaB0edoPXxj19IkaE3ZahXnV7HiGax9Q7kRLoo/zBPPr7gTNphGCcbCV7Vz4vyLNGmvKUtAaV1u0PLyDJpTcVX8ymCqy2hGCm0KM07apQfqyxvww3ckr1k66Av0I/ypduOTzVfpQe4avg==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>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</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+  <Status>
+    <StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+  </Status>
+  <Assertion xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Version="2.0" ID="_2ee94be9-51c2-4650-b86e-457efa1506c9" IssueInstant="2024-09-02T11:57:16.186368Z">
+    <Issuer>Innskraning</Issuer>
+    <Subject>
+      <NameID NameQualifier="island.is"/>
+      <SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+        <SubjectConfirmationData Address="127.0.0.1" NotOnOrAfter="2024-09-02T12:02:16.186368Z" Recipient="https://sjodir.rannis.is/menu/"/>
+      </SubjectConfirmation>
+    </Subject>
+    <Conditions NotBefore="2024-09-02T11:56:46.186368Z" NotOnOrAfter="2024-09-02T12:02:16.186368Z">
+      <AudienceRestriction>
+        <Audience>sjodir.rannis.is</Audience>
+      </AudienceRestriction>
+    </Conditions>
+    <AuthnStatement AuthnInstant="2024-09-02T11:57:16.186368Z">
+      <SubjectLocality Address="82.221.64.136"/>
+      <AuthnContext>
+        <AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:TLSClient</AuthnContextClassRef>
+      </AuthnContext>
+    </AuthnStatement>
+    <AttributeStatement>
+      <Attribute Name="UserSSN" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Kennitala">
+        <AttributeValue xsi:type="xsd:string">1234567890</AttributeValue>
+      </Attribute>
+      <Attribute Name="Name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Nafn">
+        <AttributeValue xsi:type="xsd:string">Jón Jónsson</AttributeValue>
+      </Attribute>
+      <Attribute Name="Authentication" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Auðkenning">
+        <AttributeValue xsi:type="xsd:string">Rafræn símaskilríki</AttributeValue>
+      </Attribute>
+      <Attribute Name="IPAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="IPTala">
+        <AttributeValue xsi:type="xsd:string">127.0.0.1</AttributeValue>
+      </Attribute>
+      <Attribute Name="UserAgent" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="NotandaStrengur">
+        <AttributeValue xsi:type="xsd:string">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.100 Safari/537.36</AttributeValue>
+      </Attribute>
+      <Attribute Name="DestinationSSN" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="KennitalaMóttakanda">
+        <AttributeValue xsi:type="xsd:string">5310942129</AttributeValue>
+      </Attribute>
+      <Attribute Name="Mobile" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Farsímanúmer">
+        <AttributeValue xsi:type="xsd:string">+354-5812345</AttributeValue>
+      </Attribute>
+    </AttributeStatement>
+  </Assertion>
+</Response>
