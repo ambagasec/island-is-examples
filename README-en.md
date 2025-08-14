@@ -1,9 +1,5 @@
 # island.is examples
 
-Sýnidæmi sem gefin voru í Leiðbeiningum um uppsetningu fyrir þjónustuveitendur
-sem vildu nýta sér Innskráningarþjónustu island.is. Tekið úr útgáfu 2.0 af
-skjalinu, dagsett 08.04.2014.
-
 Examples from the setup guidelines for service providers who wished to use 
 the island.is authentication service. Taken from version 2.0 of the document, 
 dated April 8th, 2014.
